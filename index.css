@@ -1,0 +1,43 @@
+/* Selector {
+    property-name:property-value;
+} */
+
+/* Tag selector
+Tag-name{
+    property-name:property-value;
+} */
+
+h1 {
+    font-size: 10px;
+    color: blue;
+}
+
+/* Class selector
+.class-name {
+    property-name:propert-value;
+} */
+
+.redText {
+    color: red;
+}
+
+/* id selector
+#id {} */
+
+#greenText {
+    color: green;
+}
+
+/* multiple selectors
+selector11,selector2,... {} */
+
+#greenText,.redText,h1 {
+    background-color: yellowgreen;
+}
+
+/* child selectors
+parent-selector child-selector {} */
+
+div span{
+    color: turquoise;
+}
